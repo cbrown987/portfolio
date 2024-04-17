@@ -1,0 +1,23 @@
+.icon_button{
+    height: 3vh;
+}
+.buttonMargin {
+    margin-right: 5px;
+}
+.cardText {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limit to 3 lines, adjust as needed */
+    -webkit-box-orient: vertical;
+}
+.cardImg{
+    width: 100%; /* Make image fill the container width */
+    height: 200px; /* Set a fixed height or use percentage */
+    object-fit: cover;
+    object-position: center;
+}
+.expanded {
+    -webkit-line-clamp: unset;
+    height: auto;
+}

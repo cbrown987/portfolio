@@ -1,0 +1,244 @@
+{
+  "navbar": {
+    "projects": {
+      "en": "Projects",
+      "fr": "Projets"
+    },
+    "projects_programing": {
+      "en": "Programing",
+      "fr": "Programmation"
+    },
+    "projects_ml": {
+      "en": "Machine Learning",
+      "fr": "Apprentissage Automatique"
+    },
+    "contact": {
+      "en": "Contact",
+      "fr": "Contact"
+    },
+    "switchLang": {
+      "en": "Français",
+      "fr": "English"
+    }
+  },
+  "header": {},
+  "projects": {
+    "programing": [
+      {"projectName": {
+        "en": "Chatterbones",
+        "fr": "Chatterbones"
+      },
+        "description": {
+          "en": "An in-house generative conversational AI trained to be extremely lightweight. Intended to be placed on a Raspberry Pi and listen to a persons speech, and respond. A collaborative project between me and two others.",
+          "fr" : "Une IA conversationnelle générative maison formée pour être extrêmement légère. Destiné à être placé sur un Raspberry Pi et à écouter le discours d'une personne et à y répondre. Un projet collaboratif entre moi et deux autres."
+        },
+        "imagePath": "/img/chatterbones-screenshot.png",
+        "projectLinks": [{
+          "linkName": "Github",
+          "linkPath": "https://github.com/cbrown987/chatterbones",
+          "linkImgPath": "/img/icons/github.png"
+        }
+        ]
+      },
+      {"projectName": {
+        "en": "Tokenizer Visualization",
+        "fr": "Analyseur Lexical Visualiser"
+      },
+        "description": {
+          "en": "This is a flask app that shows how different tokenizers will tokenize texts. There are only 3 tokenizers, Bart, Byte Pair, and Byte Pair dropout. Both byte pairs were implemented by me. bart was imported.",
+          "fr" : "Il s'agit d'une application Flask qui montre comment différents tokeniseurs vont tokeniser les textes. Il n'y a que 3 tokenizers, Bart, Byte Pair et Byte Pair dropout. Les deux paires d'octets ont été implémentées par moi. Bart a été importé."
+        },
+        "imagePath": "/img/TokenizerScreenshot.png",
+        "projectLinks": [{
+          "linkName": "Gitlab",
+          "linkPath": "https://gitlab.com/Cooper.brown/tokenizer_visualizer",
+          "linkImgPath": "/img/icons/gitlab.png"
+        }
+        ]
+      },
+      {"projectName": {
+        "en": "Tafl",
+        "fr": "Tafl"
+      },
+        "description": {
+          "en": "A Rust desktop application to play various Tafl games. Includes opponents that use Min-Max with Alpha-Beta pruning.",
+          "fr" : "une application de bureau jouer à des jeux de Tafl. Cette application a été conçue avec a rust back-end avec un javascript front-end utiliser le cadre de Tauri. It features une IA utilisant un algorithme minimax personnalisé avec élagage Alpha - Beta."
+        },
+        "imagePath": "/img/taflScreenshot.png",
+        "projectLinks": [{
+          "linkName": "Gitlab",
+          "linkPath": "https://gitlab.com/Cooper.brown/tafl",
+          "linkImgPath": "/img/icons/gitlab.png"
+        }
+        ]
+      },
+      {"projectName": {
+        "en": "MYPY",
+        "fr": "MYPY"
+      },
+        "description": {
+          "en": "An emulator for the MIPS assembly language written in python, I decided to do this project to learn more about MIPS and Python. This project features full testing with pytest.",
+          "fr" : "Un émulateur pour le langage d'assemblage MIPS écrit en Python, j'ai décidé de réaliser ce projet pour en apprendre plus sur MIPS et Python. Ce projet est entièrement testé avec pytest."
+        },
+        "imagePath": "/img/MIPY_screenshot.png",
+        "projectLinks": [{
+            "linkName": "Gitlab",
+            "linkPath": "https://gitlab.com/Cooper.brown/pymips",
+            "linkImgPath": "/img/icons/gitlab.png"
+          }
+        ]
+      },
+      {"projectName": {
+        "en": "Mellon Lime",
+        "fr": "Mellon Lime"
+      },
+        "description": {
+          "en": "A simple text editor with code syntax highlighting built with C# and WPF, called MelonLime.",
+          "fr" : "Un éditeur de texte simple avec mise en évidence de la syntaxe du code, construit en C# et WPF, appelé MelonLime."
+        },
+        "imagePath": "/img/MellonLimeScreenshot.png",
+        "projectLinks": [{
+          "linkName": "Gitlab",
+          "linkPath": "https://github.com/GriseoVulpes11/MelonLime",
+          "linkImgPath": "/img/icons/gitlab.png"
+        },
+        {
+          "linkName": "SourceForge",
+          "linkPath": "https://sourceforge.net/projects/mellonlime/",
+          "linkImgPath": "/img/icons/sourceforge.png"
+        }
+        ]
+      },
+      {"projectName": {
+        "en": "CRF-Planner",
+        "fr": "CRF-Planificateur"
+      },
+        "description": {
+          "en": "A Lightweight planner for Windows desktops built with C# and WPF.",
+          "fr" : "Un planificateur léger pour les bureaux Windows construit avec C# et WPF."
+        },
+        "imagePath": "/img/CRFscreenshot.png",
+        "projectLinks": [
+        {
+          "linkName": "GitHub",
+          "linkPath": "https://github.com/GriseoVulpes11/PlannerApp",
+          "linkImgPath": "/img/icons/github.png"
+        },
+        {
+          "linkName": "SourceForge",
+          "linkPath": "https://sourceforge.net/projects/crf-planner/",
+          "linkImgPath": "/img/icons/sourceforge.png"
+        }
+        ]
+      },
+      {"projectName": {
+        "en": "Course Registration Helper",
+        "fr": "Ecole aide l'enregisrement"
+      },
+        "description": {
+          "en": "This was a project where I worked with a team of 12 developers to create a registration helper desktop app. Python was the primary language used. I was the leader in charge of the Degree Progress group, where users could track their courses and have the application recommend courses to take next.",
+          "fr" : "Dans le cadre de ce projet, j'ai travaillé avec une équipe de 12 développeurs pour créer une application bureautique d'aide à l'enregistrement. Python était le principal langage utilisé. J'étais responsable du groupe \"Degree Progress\", où les utilisateurs pouvaient suivre leurs cours et se faire recommander les cours suivants par l'application. l'application leur recommandait les cours à suivre."
+        },
+        "imagePath": "/img/CourseRegistration.png",
+        "projectLinks": [{
+          "linkName": "Gitlab",
+          "linkPath": "https://gitlab.com/cs188_f22/cs_register",
+          "linkImgPath": "/img/icons/gitlab.png"
+        }
+        ]
+      },
+      {"projectName": {
+        "en": "LinkedIn scraper",
+        "fr": "LinkedIn grattage"
+      },
+        "description": {
+          "en": "A LinkedIn scraper to allow me to read LinkedIn pages easier for my VoteSmart.org internship. Built using Python using Selenium and Beautiful Soup",
+          "fr" : "Un scraper LinkedIn pour me permettre de lire les pages LinkedIn plus facilement pour mon stage VoteSmart.org. Construit en Python avec Selenium et Beautiful Soup"
+        },
+        "imagePath": "",
+        "projectLinks": [{
+          "linkName": "Github",
+          "linkPath": "https://github.com/GriseoVulpes11/VoteSmartAutomation",
+          "linkImgPath": "/img/icons/github.png"
+        }
+        ]
+      }
+    ],
+    "ml": [
+      {"projectName": {
+        "en": "Dog breed classifier",
+        "fr": "Chien répertorier"
+      },
+        "description": {
+          "en": "A couple convolutional neural networks I trained to classify dogs based on the kaggle dataset",
+          "fr" : "Quelques réseaux neuronaux convolutionnels que j'ai entraînés pour classer les chiens sur la base de l'ensemble de données kaggle."
+        },
+        "imagePath": "",
+        "projectLinks": [
+          {
+          "linkName": "Kaggle",
+          "linkPath": "https://www.kaggle.com/browncooper/dog-photo-classifier",
+          "linkImgPath": "/img/icons/kaggle.png"
+          },
+          {
+            "linkName": "Google Colab",
+            "linkPath": "https://drive.google.com/file/d/1HUXhKqsx5Dtx3ChSL4q70KqvISNU7wlB/view?usp=sharing",
+            "linkImgPath": "/img/icons/colab.png"
+          }
+        ]
+      },
+      {"projectName": {
+        "en": "Autism test classifier",
+        "fr": "test classificateur du spectre autistique "
+      },
+        "description": {
+          "en": "A project I did with data from a test given to autistic and non-autistic people. I experimented with different data balancing techniques and machine learning methods.",
+          "fr" : "Un projet que j'ai réalisé avec des données provenant d'un test administré à des personnes autistes et non autistes. J'ai expérimenté différentes techniques d'équilibrage des données et de méthodes d'apprentissage automatique."
+        },
+        "imagePath": "",
+        "projectLinks": [
+          {
+            "linkName": "Kaggle",
+            "linkPath": "https://www.kaggle.com/browncooper/screening-experement",
+            "linkImgPath": "/img/icons/kaggle.png"
+          }
+        ]
+      },
+      {"projectName": {
+        "en": "Article on Natural language processing in Keras",
+        "fr": "Un article et de traitement du langage naturel sur la Keras"
+      },
+        "description": {
+          "en": "An article I wrote on how to use Keras to train a Natural language processing model. ",
+          "fr" : "Un article j'a ecrit sur utalizer Keras entraîner et de traitement du langage naturel."
+        },
+        "imagePath": "",
+        "projectLinks": [
+          {
+            "linkName": "Medium",
+            "linkPath": "https://medium.com/@coopergreen/how-to-train-a-nlp-model-in-keras-4b34a32b213d",
+            "linkImgPath": "/img/icons/medium.png"
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "socials": {
+      "en": "Socials",
+      "fr": "les médias sociaux."
+    },
+    "email": {
+      "en": "Email",
+      "fr": "Email"
+    },
+    "resume": {
+      "en": "Resume",
+      "fr": "Resume"
+    },
+    "downloadResume": {
+      "en": "Download PDF",
+      "fr": "télécharger un PDF"
+    }
+  }
+}
