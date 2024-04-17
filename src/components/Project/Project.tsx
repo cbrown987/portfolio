@@ -23,7 +23,7 @@ export const Project: React.FC<ProjectInformation> = (ProjectInformation: Projec
             <div className={'container p-4'}>
                 <div className={'row '}>
                     {Projects.map((project, index) => (
-                        <div key={index} className={"p-3 w-25"}>
+                        <div key={index} className={"p-3 col-md-4"}>
                             <ProjectCard
                                 projectName={project.projectName}
                                 projectImagePth={project.projectImagePth}

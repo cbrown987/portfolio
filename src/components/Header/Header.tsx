@@ -13,7 +13,7 @@ function Header() {
                     color: 'white',
                     textAlign: 'center'
                 }}>
-                    <h1 style={{fontSize: '4vw'}}>
+                    <h1 style={{fontSize: '5vw', color: 'white'}}>
                         {"Cooper Brown"}
                     </h1>
                 </div>

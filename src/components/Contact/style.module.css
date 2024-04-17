@@ -2,3 +2,7 @@
     color: #000;
     font-size: 1.4rem;
 }
+
+.paddedSection {
+    padding-bottom: 4vh;
+}
