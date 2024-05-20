@@ -2,7 +2,7 @@
 /* Base styles that apply at all times, primarily for desktop */
 .navbarNav {
     display: flex; /* Use flexbox to manage layout */
-    justify-content: right; /* Center items horizontally on desktop */
+    justify-content: left; /* Center items horizontally on desktop */
     width: 100%; /* Full width to utilize the space */
 }
 
