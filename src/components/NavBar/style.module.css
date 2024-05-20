@@ -1,0 +1,55 @@
+/* NavBar.module.css */
+/* Base styles that apply at all times, primarily for desktop */
+.navbarNav {
+    display: flex; /* Use flexbox to manage layout */
+    justify-content: right; /* Center items horizontally on desktop */
+    width: 100%; /* Full width to utilize the space */
+}
+
+
+.navItem {
+    display: inline-block; /* Inline-block keeps items in line on desktop */
+}
+
+.navLink {
+    text-align: center; /* Centers the text in nav links */
+}
+
+.dropdown {
+    display: inline-block; /* Keeps the dropdown in line on desktop */
+    text-align: center; /* Centers the text within the dropdown */
+    position: relative; /* Needed for absolute positioning of the dropdownMenu */
+}
+
+.dropdownMenu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%; /* Starts right below the dropdown button */
+    width: auto; /* Use auto width for dropdown menus on desktop */
+    text-align: left;
+    box-sizing: border-box;
+}
+
+
+/* Adjustments specifically for mobile */
+@media (max-width: 992px) {
+    .navbarNav {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Ensure items are centered in the flex column */
+        justify-content: center; /* Center items horizontally on desktop */
+
+    }
+
+    .dropdown {
+        width: 100%; /* Full width dropdown on mobile for better touch targets */
+    }
+
+    .navItem {
+        width: 100%; /* Full width nav items on mobile */
+    }
+
+    .dropdownMenu {
+        width: 90%; /* Set a specific width for dropdown menus on mobile */
+    }
+}

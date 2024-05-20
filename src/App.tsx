@@ -5,7 +5,7 @@ import { Analytics } from "@vercel/analytics/react"
 
 import './App.css';
 import {Header} from "./components/Header/Header";
-import {NavBar} from "./components/NavBar";
+import {NavBar} from "./components/NavBar/NavBar";
 import {Project} from "./components/Project/Project";
 import {Contact} from "./components/Contact/Contact";
 

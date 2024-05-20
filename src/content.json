@@ -25,6 +25,27 @@
   "projects": {
     "programing": [
       {"projectName": {
+        "en": "Articulate Visions",
+        "fr": "Articulate Visions"
+      },
+        "description": {
+          "en": "This was the end of major project for my AI major at Drake University. It was intended to be an educational tool to showcase how text-to-image diffusion models work. It was made using a frontend in the NextJS framework, and the backend was made using a modified version of OpenAI's GLIDE model. ",
+          "fr" : "C'était la fin d'un projet majeur pour ma spécialisation en IA à l'Université Drake. Il s'agissait d'un outil pédagogique permettant de montrer le fonctionnement des modèles de diffusion texte-image. Il a été réalisé à l'aide d'un frontend dans le framework NextJS, et le backend a été réalisé à l'aide d'une version modifiée du modèle GLIDE d'OpenAI."
+        },
+        "imagePath": "/img/av-screenshot.png",
+        "projectLinks": [{
+          "linkName": "Github",
+          "linkPath": "https://github.com/Jackles1234/Articulate-Visions",
+          "linkImgPath": "/img/icons/github.png"
+        },
+          {
+            "linkName": "Website Link",
+            "linkPath": "https://www.articulatevisions.net/",
+            "linkImgPath": "/img/icons/website-icon.png"
+          }
+        ]
+      },
+      {"projectName": {
         "en": "Chatterbones",
         "fr": "Chatterbones"
       },
