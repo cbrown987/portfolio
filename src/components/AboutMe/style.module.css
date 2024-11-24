@@ -1,0 +1,20 @@
+/* aboutMe.css */
+.aboutMe {
+    display: flex;
+    flex-direction: column; /* Align content vertically */
+    padding: 1.5rem; /* Add inner spacing */
+    border-radius: 8px; /* Smooth corners */
+    margin: 0 auto; /* Center horizontally */
+    max-width: 800px; /* Limit content width */
+    text-align: center; /* Center the text */
+}
+
+.aboutMeh4 {
+    margin-bottom: 1rem; /* Space below title */
+}
+
+.aboutMep {
+    line-height: 1.6; /* Improve readability */
+    text-align: center; /* Keep text centered */
+    word-wrap: break-word; /* Handle long text */
+}

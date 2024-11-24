@@ -74,6 +74,9 @@ const NavBar: React.FC<NavBarInformation> = (NavBarInformation) => {
                                 )}
                             </div>
                             <li className={`nav-item ${styles.navItem}`}><a className={`nav-link ${styles.navLink}`}
+                                                                            href="#aboutme">{NavBarInformation.aboutText}</a>
+                            </li>
+                            <li className={`nav-item ${styles.navItem}`}><a className={`nav-link ${styles.navLink}`}
                                                                             href="#contact">{NavBarInformation.dropdownContactText}</a>
                             </li>
                             <li className={`nav-item ${styles.navItem}`}><a className={`nav-link ${styles.navLink}`}

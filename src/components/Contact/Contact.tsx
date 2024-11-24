@@ -43,7 +43,7 @@ const Contact: React.FC<ContactInformation> = (ContactInformation: ContactInform
                                     <hr className="my-4 mx-auto"/>
                                     <div className="small text-black-50">
                                         <a href="assets/Resume.pdf"
-                                           download="CooperBrownResume.pdf">{ContactInformation.downloadText}</a>
+                                           download="assets/Resume.pdf">{ContactInformation.downloadText}</a>
                                     </div>
                                 </div>
                             </div>

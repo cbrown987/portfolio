@@ -5,6 +5,7 @@ export interface NavBarInformation {
     dropdownProgramingText: string,
     dropdownMLText: string,
     dropdownContactText: string,
+    aboutText: string,
     languageSwitchText: string,
     toggleLanguage?: () => void
 }
@@ -21,6 +22,11 @@ export interface ProjectInformation {
     groupName: String,
     projectList: Array<ProjectJson>,
     language: 'en' | 'fr'
+}
+
+export interface AboutMeInformation {
+    title: string;
+    content: string;
 }
 
 export interface ContactInformation {

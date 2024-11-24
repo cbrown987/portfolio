@@ -10,6 +10,7 @@ import {Project} from "./components/Project/Project";
 import {Contact} from "./components/Contact/Contact";
 
 import data from './content.json'
+import {AboutMe} from "./components/AboutMe/AboutMe";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
                     dropdownProgramingText={data.navbar.projects_programing[language]}
                     dropdownMLText={data.navbar.projects_ml[language]}
                     dropdownContactText={data.navbar.contact[language]}
+                    aboutText={data.navbar.about[language]}
                     languageSwitchText={data.navbar.switchLang[language]}
                     toggleLanguage={toggleLanguage}
                 />
@@ -37,11 +39,18 @@ function App() {
                     projectList={data.projects.programing}
                     language={language}
                 />
-                <hr />
+                <hr/>
                 <Project
                     groupName={"machine-learning"}
                     projectList={data.projects.ml}
-                    language={language} />
+                    language={language}
+                />
+                <hr/>
+                <AboutMe
+                    title={data.aboutMe.title[language]}
+                    content={data.aboutMe.content[language]}
+                />
+                <hr/>
                 <Contact
                     socialsText={data.contact.socials[language]}
                     emailText={data.contact.email[language]}

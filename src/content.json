@@ -16,6 +16,10 @@
       "en": "Contact",
       "fr": "Contact"
     },
+    "about": {
+      "en": "About",
+      "fr": "About"
+    },
     "switchLang": {
       "en": "Français",
       "fr": "English"
@@ -243,6 +247,16 @@
         ]
       }
     ]
+  },
+  "aboutMe": {
+    "title": {
+      "en": "About Me",
+      "fr": ""
+    },
+    "content": {
+      "en": "I’m Cooper Brown, a Computer Science and Artificial Intelligence student at Drake University. As an analytical thinker, I thrive on diving into and understanding complex problems and systems. I have strong expertise in Python, JavaScript, TypeScript, Rust, and Bash, with additional experience in R and SQL.\nProfessionally, I’ve worked with tools like Kubernetes, Docker, Jenkins, and Ansible, enabling me to manage and automate robust systems. I’m also proficient in frameworks such as Next.js, React, scikit-learn, Keras, and PyTorch, which I’ve used to build dynamic applications and implement machine learning solutions.\n\n",
+      "fr": ""
+    }
   },
   "contact": {
     "socials": {
