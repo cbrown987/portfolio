@@ -29,6 +29,27 @@
   "projects": {
     "programing": [
       {"projectName": {
+        "en": "rusty_science",
+        "fr": "rusty_science"
+      },
+        "description": {
+          "en": "A rust cargo package that aims to make machine learning and statistical tasks easier and more accessible in Rust. Made natively in rust and hosted on crates.io and available to the rust community. Has surpassed over 100 downloads",
+          "fr" : ""
+        },
+        "imagePath": "/img/rustyScienceScreenshot.png",
+        "projectLinks": [{
+          "linkName": "Github",
+          "linkPath": "https://github.com/cbrown987/rustyScience",
+          "linkImgPath": "/img/icons/github.png"
+        },
+          {
+            "linkName": "Crates.io Link",
+            "linkPath": "https://crates.io/crates/rusty_science",
+            "linkImgPath": "/img/icons/cargo_logo.png"
+          }
+        ]
+      },
+      {"projectName": {
         "en": "Articulate Visions",
         "fr": "Articulate Visions"
       },
