@@ -29,8 +29,8 @@
   "projects": {
     "programing": [
       {"projectName": {
-        "en": "rusty_science",
-        "fr": "rusty_science"
+        "en": "Rusty Science",
+        "fr": "Rusty Science"
       },
         "description": {
           "en": "A rust cargo package that aims to make machine learning and statistical tasks easier and more accessible in Rust. Made natively in rust and hosted on crates.io and available to the rust community. Has surpassed over 100 downloads",
